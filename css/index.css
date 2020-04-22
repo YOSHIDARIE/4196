@@ -1,9 +1,65 @@
-p {
+p.sub-title1 {
     color: aqua
+}
+p#sub-title2{
+    color: pink;
+}
+
+.company{
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 h1{
     color: red;
     font-size: 50pt;
     font-weight: bold;
+    text-align: center;
+}
+
+div.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50px 50px 0px 50px;
+    position: absolute;
+    left: 3px;
+    top: 585px;
+    margin: 5px;
+}
+
+div.box2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50px 0px 50px 50px;
+    position: absolute;
+    left: 3px;
+    top: 690px;
+    margin: 5px;
+}
+
+div.box3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 0px 50px 50px 50px;
+    position: absolute;
+    left: 108px;
+    top: 690px;
+    margin: 5px;
+}
+
+div.box4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50px 50px 50px 0px;
+    position: absolute;
+    left: 108px;
+    top: 585px;
+    margin: 5px;
 }
